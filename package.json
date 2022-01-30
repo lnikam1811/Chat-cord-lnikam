@@ -4,9 +4,7 @@
   "description": "Realtime chat with rooms",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server",
-    "build": "node server"
+    "start": "node server"
   },
   "author": "Labhesh Nikam",
   "license": "MIT",
@@ -17,5 +15,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
